@@ -1,0 +1,32 @@
+<?php 
+/********************************************************************************* 
+ *  This file is part of Camhrms.
+ *  Copyright (C) 2014 Camtech Indonesia
+ *   
+ *  Camhrms is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  Camhrms is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Camhrms.
+ *
+ *  Camhrms Support <support@camtech-indonesia.co.id>
+ ********************************************************************************/
+?>
+
+<div id="error_message" style="display:none;"></div>
+<?php 
+
+if($this->call == 'ajaxcall'){
+	$div = ''; $endDiv = ''; 
+} else { 
+	$div = '<div id="grid_'.$this->dataArray['objectname'].'" class="all-grid-control">'; $endDiv = '</div>';
+}
+	echo $div.'<div id="msg" style="display:none;font-style: oblique; font-weight: bold; color: green;""></div>'.$this->requisitiongrid($this->dataArray).$endDiv;
+?>
