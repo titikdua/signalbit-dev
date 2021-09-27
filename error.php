@@ -94,7 +94,7 @@ if(!empty($_GET))
 
           	<?php }else if(sapp_Global::_decrypt($_GET['param']) == 'db'){?>	
 
-          		<div class="error_mess">Database error occurred.Please reinstall the system to proceed.</div>
+          		<div class="error_mess">DATABASE GA KONEK BOSS !!!!!</div>
 
           	<?php }else if(sapp_Global::_decrypt($_GET['param']) == 'tbl'){?>
 
