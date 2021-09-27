@@ -60,7 +60,7 @@ if(!empty($_GET))
 
     <meta charset="utf-8">
 
-    <title>camHRMS</title>
+    <title>SIGNALBIT-HR</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
