@@ -3,16 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/hriss/public/media/css/style.css</file>
-            <file>file:/C:/wamp64/www/hriss/application/layouts/scripts/assetsfooter.phtml</file>
-            <file>file:/C:/wamp64/www/hriss/Zend/View/Helper/Menubuilder.php</file>
-            <file>file:/C:/wamp64/www/hriss/application/layouts/scripts/expensesfooter.phtml</file>
-            <file>file:/C:/wamp64/www/hriss/application/layouts/scripts/timemanagementfooter.phtml</file>
-            <file>file:/C:/wamp64/www/hriss/public/media/css/jquery.simplyscroll.css</file>
-            <file>file:/C:/wamp64/www/hriss/public/media/timemanagement/css/style.css</file>
-            <file>file:/C:/wamp64/www/hriss/public/media/css/loginstyle.css</file>
-            <file>file:/C:/wamp64/www/hriss/application/layouts/scripts/defaultfooter.phtml</file>
-            <file>file:/C:/wamp64/www/hriss/application/layouts/scripts/hrmsfooter.phtml</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/public/db_constants.php</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/public/media/css/jquery.simplyscroll.css</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/application/modules/default/views/scripts/dashboard/menuwork.phtml</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/application/controllers/ErrorController.php</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/application/layouts/scripts/defaultfooter.phtml</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/Zend/Log.php</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/logs/application.log</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/index.php</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/application/modules/expenses/controllers/AdvancesController.php</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/application/layouts/scripts/assetsfooter.phtml</file>
+            <file>file:/C:/wamp64/www/signalbit-dev/error.php</file>
         </group>
     </open-files>
 </project-private>
