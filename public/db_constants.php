@@ -1,7 +1,7 @@
 <?php
-	           defined('CAMHRMS_HOST') || define('CAMHRMS_HOST','localhost');
+	           defined('CAMHRMS_HOST') || define('CAMHRMS_HOST','192.168.10.19');
 	           defined('CAMHRMS_USERNAME') || define('CAMHRMS_USERNAME','root');
-	           defined('CAMHRMS_PASSWORD') || define('CAMHRMS_PASSWORD','');
-	           defined('CAMHRMS_DBNAME') || define('CAMHRMS_DBNAME','mgs_hr');
+	           defined('CAMHRMS_PASSWORD') || define('CAMHRMS_PASSWORD','Mgs@2021');
+	           defined('CAMHRMS_DBNAME') || define('CAMHRMS_DBNAME','signalbit_hr');
 	           
 	         ?>
