@@ -1,19 +1,11 @@
 pipeline {
-    agent any
-    stages{
-        stage('Get Latest Code') {
+    agent { docker { image 'php' } }
+    stages {
+        stage('build') {
             steps {
-                script{
-                    sh "echo get latest"
-                }
-            }
-        }
-        stage("Build App") {
-            steps {
-                script{
-                    sh "echo build"
-                }
+                sh 'php --version'
             }
         }
     }
+}
 }
