@@ -5,3 +5,5 @@
 	           defined('CAMHRMS_DBNAME') || define('CAMHRMS_DBNAME','signalbit_hr');
 	           
 	         ?>
+
+//test
