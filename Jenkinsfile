@@ -4,16 +4,20 @@ pipeline {
         stage('Get Latest Code') {
             steps {
                 script{
-                    sh "echo get latest"
+				sh "git branch: 'signalbit-dev', url: 'https://github.com/titikdua/signalbit-dev.git' "
+                   // sh "echo get latest"
                 }
             }
         }
         stage("Build App") {
             steps {
                 script{
-                    sh "echo build"
+				sh "git branch: 'signalbit-dev', url: 'https://github.com/titikdua/signalbit-dev.git' "
+                    // sh "echo build"
                 }
             }
         }
     }
 }
+
+
