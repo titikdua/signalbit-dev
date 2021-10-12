@@ -1,8 +1,4 @@
 pipeline {
-    environment {
-       
-    }
-
     agent any
     stages{
         stage('Get Latest Code') {
