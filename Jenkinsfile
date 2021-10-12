@@ -4,7 +4,7 @@ pipeline {
         stage('Get Latest Code') {
             steps {
                 script{
-                    sh "oc login https://192.168.98.11:6443 -u alif -palif123"
+                    sh "oc login --token=sha256~g1D_W2pGTne5af7xjc1CijSKyOeAArbS0YddOWvDspE --server=https://api.lab.ocp.local:6443 --insecure-skip-tls-verify=true"
 					sh " echo oc get project "
                 }
             }
@@ -12,10 +12,11 @@ pipeline {
         stage("Build App") {
             steps {
                 script{
-                    sh "oc login https://192.168.98.11:6443 -u alif -palif123"
+                    sh "oc login --token=sha256~g1D_W2pGTne5af7xjc1CijSKyOeAArbS0YddOWvDspE --server=https://api.lab.ocp.local:6443 --insecure-skip-tls-verify=true"
 					sh " echo oc get project "
                 }
             }
         }
     }
 }
+
